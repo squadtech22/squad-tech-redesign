@@ -6,7 +6,7 @@ export const serviceLandings = {
     packages: [
       {
         name: 'Launch',
-        price: '$1,200',
+        price: '$299',
         period: '/month',
         description: 'For brands getting started with social — or restarting after an agency disappointment.',
         features: [
@@ -21,7 +21,7 @@ export const serviceLandings = {
       },
       {
         name: 'Scale',
-        price: '$2,800',
+        price: '$399',
         period: '/month',
         description: 'For brands ready to make social their primary acquisition channel.',
         features: [
@@ -37,7 +37,7 @@ export const serviceLandings = {
       },
       {
         name: 'Dominate',
-        price: '$5,500',
+        price: '$599',
         period: '/month',
         description: 'For brands treating social as a full growth engine with aggressive targets.',
         features: [
