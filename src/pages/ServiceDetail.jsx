@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useParams, redirect } from 'next/navigation'
 import { FiArrowRight, FiCheck, FiArrowUpRight } from 'react-icons/fi'
 import { services } from '../data/services'
+import { serviceLandings } from '../data/serviceLandings'
 import useScrollReveal from '../hooks/useScrollReveal'
 import Footer from '../components/Footer'
 
@@ -61,8 +62,8 @@ export default function ServiceDetail() {
                 >
                   Get Started Free <FiArrowRight className="w-4 h-4" />
                 </a>
-                <Link href={`/lp/${service.slug}`} className="btn-secondary px-6 py-3 text-sm">
-                  View Packages & Pricing
+                <Link href={serviceLandings[service.slug] ? `/lp/${service.slug}` : `/start?service=${encodeURIComponent(service.title)}`} className="btn-secondary px-6 py-3 text-sm">
+                  {serviceLandings[service.slug] ? 'View Packages & Pricing' : 'Discuss Your Project'}
                 </Link>
               </div>
             </div>

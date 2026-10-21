@@ -2,6 +2,7 @@
 
 import { FiArrowRight } from 'react-icons/fi'
 import Link from 'next/link'
+import { services } from '../data/services'
 import NewsletterCTA from './NewsletterCTA'
 
 const quickLinks = [
@@ -29,14 +30,7 @@ const industryLinks = [
   { label: 'For Real Estate', href: '/for/real-estate' },
 ]
 
-const serviceLinks = [
-  { label: 'Social Media Marketing', slug: 'social-media-marketing' },
-  { label: 'SEO & PPC', slug: 'seo-ppc' },
-  { label: 'Brand Identity', slug: 'brand-identity' },
-  { label: 'Media Production', slug: 'media-production' },
-  { label: 'Web Development', slug: 'web-development' },
-  { label: 'Dedicated Remote Staff', slug: 'dedicated-remote-staff' },
-]
+const serviceLinks = services.map((service) => ({ label: service.title, slug: service.slug }))
 
 const socials = [
   { label: 'Instagram', href: 'https://www.instagram.com/squadtechsolution', icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.9" stroke="currentColor" className="w-4 h-4"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.4" cy="6.6" r="0.8" fill="currentColor" stroke="none" /></svg> },

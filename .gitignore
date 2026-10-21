@@ -31,6 +31,7 @@ admin/
 
 # next.js
 .next
+.next-dev
 next-env.d.ts
 
 .vercel

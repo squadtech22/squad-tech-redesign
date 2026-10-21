@@ -2,17 +2,11 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import { services } from '../data/services'
 import { usePathname } from 'next/navigation'
 import { FiMenu, FiX, FiChevronDown } from 'react-icons/fi'
 
-const serviceItems = [
-  { label: 'Social Media Marketing', href: '/services/social-media-marketing' },
-  { label: 'SEO & PPC', href: '/services/seo-ppc' },
-  { label: 'Brand Identity', href: '/services/brand-identity' },
-  { label: 'Media Production', href: '/services/media-production' },
-  { label: 'Web Development', href: '/services/web-development' },
-  { label: 'Dedicated Remote Staff', href: '/services/dedicated-remote-staff' },
-]
+const serviceItems = services.map((service) => ({ label: service.title, href: `/services/${service.slug}` }))
 
 const resourceItems = [
   { label: 'Free Tools & Templates', href: '/resources' },

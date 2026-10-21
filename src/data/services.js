@@ -1,125 +1,103 @@
-import { FiHash, FiSearch, FiUser, FiVideo, FiCode, FiUsers } from 'react-icons/fi'
+import { FiSearch, FiUser, FiCode, FiUsers, FiSmartphone, FiCpu } from 'react-icons/fi'
 
 export const services = [
   {
-    icon: FiHash,
-    title: 'Social Media Marketing',
-    slug: 'social-media-marketing',
-    tagline: 'Results-driven social media marketing that turns followers into paying customers.',
-    description: 'Full-service social media marketing — content strategy, paid ad management, and multi-channel growth campaigns — month-to-month, with no long-term contracts.',
-    longDesc: 'We combine data-driven paid social with high-converting organic content to build measurable brand growth. Our social media marketing team embeds in your voice, manages every platform, and engineers every campaign around one goal: revenue. No templates, no vanity metrics — just verifiable results.',
-    tags: ['Instagram', 'TikTok', 'Paid Ads'],
-    accentColor: '#e73103',
-    features: [
-      'Full-funnel paid ad campaigns (Meta, TikTok, LinkedIn)',
-      'Monthly content calendars & creative production',
-      'A/B split testing on all paid creatives',
-      'Community management & DM automation',
-      'Weekly performance reports with actionable insights',
-      'Month-to-month — no long-term contracts',
+    icon: FiSmartphone,
+
+    "title": "Custom software and Mobile App Development",
+    "slug": "custom-software-mobile-app-development",
+    "tagline": "Custom business software and iOS and Android apps designed to connect your systems, simplify operations, and support your growth.",
+    "description": "Custom business software and iOS and Android apps designed to connect your systems, simplify operations, and support your growth.",
+    "longDesc": "Custom business software and iOS and Android apps designed to connect your systems, simplify operations, and support your growth.",
+    "tags": [
+        "Custom Software",
+        "Mobile Apps",
+        "API Integration"
     ],
-    stats: [
-      { value: '10M+', label: 'Impressions Generated' },
-      { value: '3.2x', label: 'Average ROAS' },
-      { value: '67+', label: 'Brands Grown' },
+    "accentColor": "#e73103",
+    "features": [
+        "Product discovery & technical planning",
+        "User experience & interface design",
+        "Custom business software development",
+        "iOS & Android app development",
+        "API & database integrations",
+        "Testing, deployment & ongoing support"
     ],
-    process: [
-      { step: '01', title: 'Audit & Strategy', desc: 'We audit your current presence, audience, and competitors to build a custom 90-day roadmap.' },
-      { step: '02', title: 'Creative Briefing', desc: 'Scripts, storyboards, and ad creatives are drafted and submitted for your approval before launch.' },
-      { step: '03', title: 'Launch & Test', desc: 'Campaigns go live across all agreed channels with built-in A/B testing from day one.' },
-      { step: '04', title: 'Optimise & Scale', desc: 'We cut losing ads fast and pour budget into winners — weekly reviews keep us ahead of algorithm shifts.' },
-    ],
+    "stats": [],
+    "process": [
+        {
+            "step": "01",
+            "title": "Discovery",
+            "desc": "Define your goals, users, and requirements."
+        },
+        {
+            "step": "02",
+            "title": "Solution Design",
+            "desc": "Plan the experience, architecture, and integrations."
+        },
+        {
+            "step": "03",
+            "title": "Build & Test",
+            "desc": "Develop in milestones and validate with your team."
+        },
+        {
+            "step": "04",
+            "title": "Launch & Support",
+            "desc": "Deploy, document, and refine the solution with your feedback."
+        }
+    ]
+
   },
   {
-    icon: FiSearch,
-    title: 'SEO & PPC',
-    slug: 'seo-ppc',
-    tagline: 'Rank higher, spend smarter — SEO and Google Ads management with measurable ROI.',
-    description: 'Integrated SEO services and Google Ads management that capture high-intent buyers, drive qualified traffic, and compound into long-term organic growth.',
-    longDesc: 'Our SEO and PPC teams operate as one unit — keyword research informs ad copy; ad performance data sharpens organic strategy. The result is a compounding search engine growth machine that gets more efficient every month, ranking your business for the terms buyers actually use and converting that traffic into verifiable revenue.',
-    tags: ['Google Ads', 'SEO', 'Analytics'],
-    accentColor: '#f58e1e',
-    features: [
-      'Technical SEO audits & on-page optimisation',
-      'Keyword strategy across 100–1,000+ target terms',
-      'Google & Bing paid search campaign management',
-      'Landing page CRO for higher quality scores',
-      'Monthly keyword rank tracking reports',
-      'Google Analytics 4 & Search Console setup',
+    icon: FiCpu,
+
+    "title": "AI DEVELOPMENT & WORKFLOW AUTOMATION",
+    "slug": "ai-development-workflow-automation",
+    "tagline": "AI assistants and connected workflows that automate repetitive tasks and help your team focus on customers and higher-value work.",
+    "description": "AI assistants and connected workflows that automate repetitive tasks and help your team focus on customers and higher-value work.",
+    "longDesc": "AI assistants and connected workflows that automate repetitive tasks and help your team focus on customers and higher-value work.",
+    "tags": [
+        "AI Assistants",
+        "Automation",
+        "Integrations"
     ],
-    stats: [
-      { value: '#1', label: 'Rankings Achieved' },
-      { value: '4.8x', label: 'Average ROI on Ad Spend' },
-      { value: '200+', label: 'Keywords Ranked' },
+    "accentColor": "#f58e1e",
+    "features": [
+        "Workflow discovery & automation planning",
+        "AI assistants & knowledge-base integration",
+        "Document processing & data extraction",
+        "CRM, email & business tool integrations",
+        "Human review & exception handling",
+        "Testing, monitoring & team handover"
     ],
-    process: [
-      { step: '01', title: 'Technical Audit', desc: 'We crawl your site to surface indexation issues, Core Web Vitals gaps, and schema opportunities.' },
-      { step: '02', title: 'Keyword & Competitor Map', desc: 'We identify your highest-value keywords and map gaps against top-ranking competitors.' },
-      { step: '03', title: 'On-Page & Ad Setup', desc: 'Pages are optimised, Google Ads campaigns are structured, and conversion tracking is wired up.' },
-      { step: '04', title: 'Rank, Test, Report', desc: 'Monthly reports show rank movement, traffic growth, and paid ROI side-by-side.' },
-    ],
-  },
-  {
-    icon: FiUser,
-    title: 'Brand Identity',
-    slug: 'brand-identity',
-    tagline: 'Brand identity design that positions you above competitors — not just alongside them.',
-    description: 'Custom logo design, comprehensive brand guidelines, and full visual identity systems built for ambitious businesses that want to be remembered.',
-    longDesc: 'We create brand identity systems that scale with your business. From logo design and typography through to a comprehensive brand guidelines document, every element is crafted with strategic intent — giving your team a clear visual rulebook and your audience a consistent, premium experience across every touchpoint.',
-    tags: ['Logo', 'Brand Book', 'Messaging'],
-    accentColor: '#e73103',
-    features: [
-      'Logo suite (primary, secondary, favicon, monochrome)',
-      'Typography & colour palette selection',
-      'Full brand guidelines document (40–80 pages)',
-      'Business card, letterhead & email signature templates',
-      'Social media profile & cover templates',
-      'Brand voice & messaging framework',
-    ],
-    stats: [
-      { value: '50+', label: 'Brands Launched' },
-      { value: '98%', label: 'Client Satisfaction' },
-      { value: '14d', label: 'Average Delivery Time' },
-    ],
-    process: [
-      { step: '01', title: 'Discovery Session', desc: 'We learn your vision, audience, competitors, and tone — then translate that into a creative brief.' },
-      { step: '02', title: 'Concept Exploration', desc: '3 distinct logo directions are presented with rationale. You choose one to develop.' },
-      { step: '03', title: 'Brand System Build', desc: 'We expand the approved direction into a full system: colours, type, icons, templates.' },
-      { step: '04', title: 'Brand Book Delivery', desc: 'You receive a comprehensive PDF brand guide plus all source files in AI, EPS, SVG, and PNG.' },
-    ],
-  },
-  {
-    icon: FiVideo,
-    title: 'Media Production',
-    slug: 'media-production',
-    tagline: 'Professional video production and photography that drives real engagement and ad performance.',
-    description: 'Corporate video production, short-form social content, and brand photography — all engineered for maximum hook rates, CTR, and return on ad spend.',
-    longDesc: 'From creative brief to final cut, our video production and photography team handles everything. We script, shoot, edit, and deliver content optimised for every platform — paid and organic. Hook rates, completion rates, and CTR are the benchmarks we chase on every deliverable, because creative that looks good but doesn\'t perform isn\'t good enough.',
-    tags: ['Video', 'Photography', 'Animation'],
-    accentColor: '#f58e1e',
-    features: [
-      'Short-form vertical video (Reels, TikTok, Shorts)',
-      'Long-form brand films & testimonial videos',
-      'Product and lifestyle photography',
-      'Motion graphics & 2D animation',
-      'Podcast video recording & editing',
-      'Ad creative variations (6–10 cuts per campaign)',
-    ],
-    stats: [
-      { value: '500+', label: 'Videos Produced' },
-      { value: '78%', label: 'Avg. Hook Rate (3s)' },
-      { value: '4.1x', label: 'Higher CTR vs Static' },
-    ],
-    process: [
-      { step: '01', title: 'Creative Brief', desc: 'We align on platform, format, hook strategy, and deliverables before a single frame is shot.' },
-      { step: '02', title: 'Pre-Production', desc: 'Script, storyboard, shot list, and any talent/location logistics are locked in advance.' },
-      { step: '03', title: 'Production', desc: 'Our team shoots with professional cinema-grade gear and handles lighting, sound, and direction.' },
-      { step: '04', title: 'Edit & Deliver', desc: 'Raw footage is edited with branded lower-thirds, sound design, and colour grading. Two rounds of revisions included.' },
-    ],
+    "stats": [],
+    "process": [
+        {
+            "step": "01",
+            "title": "Discovery",
+            "desc": "Define your goals, users, and requirements."
+        },
+        {
+            "step": "02",
+            "title": "Solution Design",
+            "desc": "Plan the experience, architecture, and integrations."
+        },
+        {
+            "step": "03",
+            "title": "Build & Test",
+            "desc": "Develop in milestones and validate with your team."
+        },
+        {
+            "step": "04",
+            "title": "Launch & Support",
+            "desc": "Deploy, document, and refine the solution with your feedback."
+        }
+    ]
+
   },
   {
     icon: FiCode,
-    title: 'Web Development',
+    title: 'WEBSITE DESIGN & DEVELOPMENT',
     slug: 'web-development',
     tagline: 'Custom web development and design — your homepage concept designed free, paid only if you love it.',
     description: 'High-performance custom websites built with React and Next.js, mobile-first design, and 95+ Lighthouse scores — with zero upfront cost until you approve the concept.',
@@ -147,16 +125,75 @@ export const services = [
     ],
   },
   {
+    icon: FiUser,
+    title: 'BRAND & IDENTITY',
+    slug: 'brand-identity',
+    tagline: 'Brand identity design that positions you above competitors — not just alongside them.',
+    description: 'Custom logo design, comprehensive brand guidelines, and full visual identity systems built for ambitious businesses that want to be remembered.',
+    longDesc: 'We create brand identity systems that scale with your business. From logo design and typography through to a comprehensive brand guidelines document, every element is crafted with strategic intent — giving your team a clear visual rulebook and your audience a consistent, premium experience across every touchpoint.',
+    tags: ['Logo', 'Brand Book', 'Messaging'],
+    accentColor: '#e73103',
+    features: [
+      'Logo suite (primary, secondary, favicon, monochrome)',
+      'Typography & colour palette selection',
+      'Full brand guidelines document (40–80 pages)',
+      'Business card, letterhead & email signature templates',
+      'Social media profile & cover templates',
+      'Brand voice & messaging framework',
+    ],
+    stats: [
+      { value: '50+', label: 'Brands Launched' },
+      { value: '98%', label: 'Client Satisfaction' },
+      { value: '14d', label: 'Average Delivery Time' },
+    ],
+    process: [
+      { step: '01', title: 'Discovery Session', desc: 'We learn your vision, audience, competitors, and tone — then translate that into a creative brief.' },
+      { step: '02', title: 'Concept Exploration', desc: '3 distinct logo directions are presented with rationale. You choose one to develop.' },
+      { step: '03', title: 'Brand System Build', desc: 'We expand the approved direction into a full system: colours, type, icons, templates.' },
+      { step: '04', title: 'Brand Book Delivery', desc: 'You receive a comprehensive PDF brand guide plus all source files in AI, EPS, SVG, and PNG.' },
+    ],
+  },
+  {
+    icon: FiSearch,
+    title: 'DIGITAL MARKETING (SEO, SMO, PPC)',
+    slug: 'seo-ppc',
+    tagline: 'Rank higher, spend smarter — SEO and Google Ads management with measurable ROI.',
+    description: 'Integrated SEO, social media optimisation, and PPC campaigns that build visibility, attract qualified traffic, and drive measurable business growth.',
+    longDesc: 'Our SEO and PPC teams operate as one unit — keyword research informs ad copy; ad performance data sharpens organic strategy. The result is a compounding search engine growth machine that gets more efficient every month, ranking your business for the terms buyers actually use and converting that traffic into verifiable revenue.',
+    tags: ['SEO', 'SMO', 'PPC'],
+    accentColor: '#f58e1e',
+    features: [
+      'Technical SEO audits & on-page optimisation',
+      'Keyword strategy across 100–1,000+ target terms',
+      'Google & Bing paid search campaign management',
+      'Landing page CRO for higher quality scores',
+      'Social media optimisation & content strategy',
+      'Google Analytics 4 & Search Console setup',
+    ],
+    stats: [
+      { value: '#1', label: 'Rankings Achieved' },
+      { value: '4.8x', label: 'Average ROI on Ad Spend' },
+      { value: '200+', label: 'Keywords Ranked' },
+    ],
+    process: [
+      { step: '01', title: 'Technical Audit', desc: 'We crawl your site to surface indexation issues, Core Web Vitals gaps, and schema opportunities.' },
+      { step: '02', title: 'Keyword & Competitor Map', desc: 'We identify your highest-value keywords and map gaps against top-ranking competitors.' },
+      { step: '03', title: 'On-Page & Ad Setup', desc: 'Pages are optimised, Google Ads campaigns are structured, and conversion tracking is wired up.' },
+      { step: '04', title: 'Rank, Test, Report', desc: 'Monthly reports show rank movement, traffic growth, and paid ROI side-by-side.' },
+    ],
+  },
+  {
     icon: FiUsers,
-    title: 'Dedicated Remote Staff',
+    title: 'DEDICATED TEAM & VIRTUAL ASSISTANCE',
     slug: 'dedicated-remote-staff',
     tagline: 'Hire dedicated remote marketing and development staff — pre-vetted, plug-and-play, no overhead.',
-    description: 'Pre-vetted remote developers, marketers, and designers who embed directly into your team at 60% less than local hiring cost — ready in 48 hours.',
-    longDesc: "Skip the 3-month hiring cycle. Our dedicated remote staff model gives you senior and mid-level developers, digital marketers, and designers who work inside your tools, join your standups, and operate as full-time colleagues — at a fraction of the cost of local hiring. Two-week trial on every placement, with a swap guarantee if the fit isn't right.",
-    tags: ['Dev', 'Marketing', 'Design'],
+    description: 'Dedicated developers, marketers, designers, and virtual assistants who work alongside your team to support delivery, customer service, and everyday operations.',
+    longDesc: "Skip the 3-month hiring cycle. Our dedicated remote staff model gives you senior and mid-level developers, digital marketers, designers, and virtual assistants who work inside your tools, join your standups, and operate as full-time colleagues — at a fraction of the cost of local hiring. Two-week trial on every placement, with a swap guarantee if the fit isn't right.",
+    tags: ['Dedicated Teams', 'Virtual Assistance', 'Operations'],
     accentColor: '#f58e1e',
     features: [
       'Pre-vetted senior and mid-level talent across 12 disciplines',
+      'Virtual assistance for admin, scheduling & customer support',
       'Full-time or part-time engagement options',
       'Two-week trial per hire',
       'Works in your tools (Slack, Jira, Notion, etc.)',

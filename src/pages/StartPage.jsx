@@ -2,19 +2,13 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { services as serviceCatalog } from '../data/services'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { FiArrowRight, FiCheck, FiPhone, FiMail, FiStar } from 'react-icons/fi'
 import { HiCheckCircle } from 'react-icons/hi2'
 import Footer from '../components/Footer'
 
-const services = [
-  'Social Media Marketing',
-  'SEO & PPC',
-  'Brand Identity',
-  'Media Production',
-  'Web Development',
-  'Dedicated Remote Staff',
-]
+const services = serviceCatalog.map((service) => service.title)
 
 const proofPoints = [
   'Zero upfront cost — we work before you pay',
@@ -50,11 +44,15 @@ export default function StartPage() {
 
   // Prefill when arriving from the Theme Directory (/start?theme=<name>)
   useEffect(() => {
+    const requestedService = searchParams.get('service')
+    if (services.includes(requestedService)) {
+      setForm((f) => ({ ...f, service: requestedService }))
+    }
     const theme = searchParams.get('theme')
     if (theme) {
       setForm((f) => ({
         ...f,
-        service: 'Web Development',
+        service: 'WEBSITE DESIGN & DEVELOPMENT',
         message: `I'm interested in having you set up, customise, and optimise the "${theme}" theme for my business.`,
       }))
     }
