@@ -93,7 +93,7 @@ const orgSchema = {
   description:
     'Full-service digital marketing agency delivering social media marketing, SEO and PPC, brand identity, media production, web development, and dedicated remote staff.',
   email: 'inquiry@squadtechsol.com',
-  telephone: '+1-201-820-6889',
+  telephone: '+1-850-308-0763',
   priceRange: '$$',
   address: {
     '@type': 'PostalAddress',
@@ -110,7 +110,7 @@ const orgSchema = {
   ],
   contactPoint: {
     '@type': 'ContactPoint',
-    telephone: '+1-201-820-6889',
+    telephone: '+1-850-308-0763',
     email: 'inquiry@squadtechsol.com',
     contactType: 'sales',
     availableLanguage: ['English'],

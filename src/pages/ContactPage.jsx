@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 
 const info = [
   { icon: FiMapPin, label: 'Address', value: '276 Holten Ave, Staten Island, NY 10309-4028, United States', href: null },
-  { icon: FiPhone, label: 'Phone', value: '+1 (201) 820-6889', href: 'tel:+12018206889' },
+  { icon: FiPhone, label: 'Phone', value: '+1 (850) 308-0763', href: 'tel:+18503080763' },
   { icon: FiMail, label: 'Email', value: 'inquiry@squadtechsol.com', href: 'mailto:inquiry@squadtechsol.com' },
 ]
 

@@ -72,7 +72,7 @@ export function resourceDeliveryEmail({ email, resource, downloadUrl }) {
         <!-- Footer -->
         <tr><td style="background:#f9f9f9;border:1px solid #e8e8e8;border-top:none;border-radius:0 0 12px 12px;padding:20px 40px;text-align:center;">
           <p style="margin:0 0 6px;font-size:12px;color:#aaa;">Squad Tech Solution · squadtechsol.com</p>
-          <p style="margin:0;font-size:12px;color:#aaa;"><a href="mailto:inquiry@squadtechsol.com" style="color:#e73103;text-decoration:none;">inquiry@squadtechsol.com</a> · <a href="tel:+12018206889" style="color:#aaa;text-decoration:none;">+1 (201) 820-6889</a></p>
+          <p style="margin:0;font-size:12px;color:#aaa;"><a href="mailto:inquiry@squadtechsol.com" style="color:#e73103;text-decoration:none;">inquiry@squadtechsol.com</a> · <a href="tel:+18503080763" style="color:#aaa;text-decoration:none;">+1 (850) 308-0763</a></p>
           <p style="margin:8px 0 0;font-size:11px;color:#ccc;">You received this because you requested a resource from squadtechsol.com. This is a one-time email — we won't spam you.</p>
         </td></tr>
 

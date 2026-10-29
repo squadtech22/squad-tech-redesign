@@ -90,8 +90,8 @@ export default function StartPage() {
             <img src="/images/logo.avif" alt="Squadtech Solution" className="h-10 w-auto object-contain" loading="eager" fetchPriority="high" />
           </Link>
           <div className="flex items-center gap-6">
-            <a href="tel:+12018206889" className="hidden sm:flex items-center gap-2 text-white/50 hover:text-white transition-colors text-sm">
-              <FiPhone className="w-3.5 h-3.5" /> +1 (201) 820-6889
+            <a href="tel:+18503080763" className="hidden sm:flex items-center gap-2 text-white/50 hover:text-white transition-colors text-sm">
+              <FiPhone className="w-3.5 h-3.5" /> +1 (850) 308-0763
             </a>
             <a href="mailto:inquiry@squadtechsol.com" className="hidden md:flex items-center gap-2 text-white/50 hover:text-white transition-colors text-sm">
               <FiMail className="w-3.5 h-3.5" /> inquiry@squadtechsol.com
