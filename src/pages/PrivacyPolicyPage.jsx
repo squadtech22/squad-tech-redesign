@@ -7,7 +7,7 @@ const sections = [
   {
     title: '1. Who We Are',
     body: [
-      'Squad Tech Solution ("we", "us", "our") is a full-service digital marketing agency located at 276 Holten Ave, Staten Island, NY 10309-4028, United States. This policy explains what personal data we collect through squadtechsol.com, why we collect it, and the choices you have.',
+      'Squad Tech Solution ("we", "us", "our") is a full-service digital marketing agency located at 971 US Highway Suite 202N, Branchburg, NJ 08876, United States. This policy explains what personal data we collect through squadtechsol.com, why we collect it, and the choices you have.',
       'Questions about this policy or your data can be sent to inquiry@squadtechsol.com.',
     ],
   },

@@ -8,7 +8,7 @@ import useScrollReveal from '../hooks/useScrollReveal'
 import Footer from '../components/Footer'
 
 const info = [
-  { icon: FiMapPin, label: 'Address', value: '276 Holten Ave, Staten Island, NY 10309-4028, United States', href: null },
+  { icon: FiMapPin, label: 'Address', value: '971 US Highway Suite 202N, Branchburg, NJ 08876, United States', href: null },
   { icon: FiPhone, label: 'Phone', value: '+1 (850) 308-0763', href: 'tel:+18503080763' },
   { icon: FiMail, label: 'Email', value: 'inquiry@squadtechsol.com', href: 'mailto:inquiry@squadtechsol.com' },
 ]

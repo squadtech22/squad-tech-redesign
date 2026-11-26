@@ -97,10 +97,10 @@ const orgSchema = {
   priceRange: '$$',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '276 Holten Ave',
-    addressLocality: 'Staten Island',
-    addressRegion: 'NY',
-    postalCode: '10309',
+    streetAddress: '971 US Highway Suite 202N',
+    addressLocality: 'Branchburg',
+    addressRegion: 'NJ',
+    postalCode: '08876',
     addressCountry: 'US',
   },
   areaServed: [

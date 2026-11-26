@@ -107,7 +107,7 @@ export default function Footer() {
               Hungry minds delivering high-performance engineering for ambitious brands worldwide.
             </p>
             <div className="space-y-2 text-sm mb-6">
-              <p className="flex gap-3"><strong className="text-white/30 w-16 flex-shrink-0">Address</strong><span className="text-white/60">276 Holten Ave, Staten Island, NY 10309-4028, United States</span></p>
+              <p className="flex gap-3"><strong className="text-white/30 w-16 flex-shrink-0">Address</strong><span className="text-white/60">971 US Highway Suite 202N, Branchburg, NJ 08876, United States</span></p>
               <p className="flex gap-3"><strong className="text-white/30 w-16 flex-shrink-0">Phone</strong><a href="tel:+18503080763" className="text-white/60 hover:text-white transition-colors">+1 (850) 308-0763</a></p>
               <p className="flex gap-3"><strong className="text-white/30 w-16 flex-shrink-0">Email</strong><a href="mailto:inquiry@squadtechsol.com" className="text-white/60 hover:text-white transition-colors">inquiry@squadtechsol.com</a></p>
             </div>
