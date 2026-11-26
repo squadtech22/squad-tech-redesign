@@ -4,6 +4,7 @@ import { posts } from '../src/data/blog'
 import { authors } from '../src/data/authors'
 import { themeCategories } from '../src/data/themes'
 import { industries } from '../src/data/industries'
+import { serviceLandings } from '../src/data/serviceLandings'
 
 const SITE_URL = 'https://squadtechsol.com'
 
@@ -81,7 +82,15 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       lastModified: now,
     })),
-    // /lp/* ad landing pages are noindex on purpose — not listed
+    // Only /lp/* pages marked indexable are listed; the rest are noindex ad pages
+    ...Object.keys(serviceLandings)
+      .filter((slug) => serviceLandings[slug].indexable)
+      .map((slug) => ({
+        url: `${SITE_URL}/lp/${slug}`,
+        priority: 0.8,
+        changeFrequency: 'monthly',
+        lastModified: now,
+      })),
   ]
   const seen = new Set()
   return entries.filter((e) => !seen.has(e.url) && seen.add(e.url))

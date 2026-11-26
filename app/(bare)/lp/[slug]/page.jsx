@@ -16,8 +16,8 @@ export async function generateMetadata({ params }) {
     title: service.title,
     description: landing.subheadline,
     alternates: { canonical: `/lp/${slug}` },
-    // Paid-traffic landing pages — intentionally kept out of search
-    robots: { index: false, follow: false },
+    // Paid-traffic landing pages stay out of search unless marked indexable
+    robots: landing.indexable ? { index: true, follow: true } : { index: false, follow: false },
   }
 }
 

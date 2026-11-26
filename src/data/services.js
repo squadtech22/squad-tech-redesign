@@ -1,4 +1,4 @@
-import { FiSearch, FiUser, FiCode, FiUsers, FiSmartphone, FiCpu } from 'react-icons/fi'
+import { FiHash, FiSearch, FiUser, FiCode, FiUsers, FiSmartphone, FiCpu } from 'react-icons/fi'
 
 export const services = [
   {
@@ -122,6 +122,35 @@ export const services = [
       { step: '02', title: 'Design in Figma', desc: 'High-fidelity designs are built to match your brand. One round of revisions is included at this stage.' },
       { step: '03', title: 'Development', desc: 'Clean, component-based code is written. The staging site is handed to you for review before launch.' },
       { step: '04', title: 'Launch & Handover', desc: 'We push live, set up hosting, and provide a 30-day post-launch support window.' },
+    ],
+  },
+  {
+    icon: FiHash,
+    title: 'Social Media Marketing',
+    slug: 'social-media-marketing',
+    tagline: 'Results-driven social media marketing that turns followers into paying customers.',
+    description: 'Full-service social media marketing — content strategy, paid ad management, and multi-channel growth campaigns — month-to-month, with no long-term contracts.',
+    longDesc: 'We combine data-driven paid social with high-converting organic content to build measurable brand growth. Our social media marketing team embeds in your voice, manages every platform, and engineers every campaign around one goal: revenue. No templates, no vanity metrics — just verifiable results.',
+    tags: ['Instagram', 'TikTok', 'Paid Ads'],
+    accentColor: '#e73103',
+    features: [
+      'Full-funnel paid ad campaigns (Meta, TikTok, LinkedIn)',
+      'Monthly content calendars & creative production',
+      'A/B split testing on all paid creatives',
+      'Community management & DM automation',
+      'Weekly performance reports with actionable insights',
+      'Month-to-month — no long-term contracts',
+    ],
+    stats: [
+      { value: '10M+', label: 'Impressions Generated' },
+      { value: '3.2x', label: 'Average ROAS' },
+      { value: '67+', label: 'Brands Grown' },
+    ],
+    process: [
+      { step: '01', title: 'Audit & Strategy', desc: 'We audit your current presence, audience, and competitors to build a custom 90-day roadmap.' },
+      { step: '02', title: 'Creative Briefing', desc: 'Scripts, storyboards, and ad creatives are drafted and submitted for your approval before launch.' },
+      { step: '03', title: 'Launch & Test', desc: 'Campaigns go live across all agreed channels with built-in A/B testing from day one.' },
+      { step: '04', title: 'Optimise & Scale', desc: 'We cut losing ads fast and pour budget into winners — weekly reviews keep us ahead of algorithm shifts.' },
     ],
   },
   {

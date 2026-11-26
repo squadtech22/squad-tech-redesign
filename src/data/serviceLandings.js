@@ -1,12 +1,14 @@
 export const serviceLandings = {
   'social-media-marketing': {
+    // Public, crawlable page: allowed in robots.txt and listed in the sitemap
+    indexable: true,
     headline: 'Your Social Media Should Be Generating Leads — Not Just Likes',
     subheadline: 'We build and run content + paid campaigns that turn followers into revenue — month-to-month, with no long-term contracts.',
     guarantee: 'Month-to-month — no long-term contracts, cancel anytime',
     packages: [
       {
         name: 'Launch',
-        price: '$299',
+        price: '$220',
         period: '/month',
         description: 'For brands getting started with social — or restarting after an agency disappointment.',
         features: [
@@ -21,7 +23,7 @@ export const serviceLandings = {
       },
       {
         name: 'Scale',
-        price: '$399',
+        price: '$345',
         period: '/month',
         description: 'For brands ready to make social their primary acquisition channel.',
         features: [
@@ -37,7 +39,7 @@ export const serviceLandings = {
       },
       {
         name: 'Dominate',
-        price: '$599',
+        price: '$667',
         period: '/month',
         description: 'For brands treating social as a full growth engine with aggressive targets.',
         features: [
